@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public int numSpawn;
+    public string note; 
     public List<GameObject> spawnPool;
-    public float[] NoteLocation = new float[]{-4.5f,-3f,-1.5f,0f,1.5f,3f,4.5f};
+    public Dictionary<string, float> noteDictionary = new Dictionary<string, float>(){
+        {"C",(float)4.5},
+        {"B",(float)3},
+        {"A",(float)1.5},
+        {"G",(float)0},
+        {"F",(float)-1.5},
+        {"E",(float)-3},
+        {"D",(float)-4.5}
+    };
 
     public GameObject quad;
     // Start is called before the first frame update
@@ -18,21 +26,19 @@ public class Spawner : MonoBehaviour
     public void spawnObjects()
     {
         int randomItem = 0;
-        int randomNote = 0;
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
         float screenX, screenY;
         Vector2 pos;
 
-        for(int i = 0; i<numSpawn; i++){
+        for(int i = 0; i<note.Length; i++){
             randomItem = Random.Range(0,spawnPool.Count);
             toSpawn = spawnPool[randomItem];
 
             screenX = c.bounds.min.x;
 
-            randomNote = Random.Range(0, NoteLocation.Length);
-            screenY = NoteLocation[randomNote];
+            screenY = noteDictionary[note[i].ToString()];
             pos = new Vector2(screenX,screenY);
 
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);

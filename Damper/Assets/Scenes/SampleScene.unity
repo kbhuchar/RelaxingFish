@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 143797115}
   - component: {fileID: 143797114}
   m_Layer: 0
-  m_Name: C1 note
+  m_Name: D note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +249,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 32f667ce501004c48a44f5a15d04e80c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 65cdeaad8da4a493bb81756af3f1991f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 1563850882}
   - component: {fileID: 1563850881}
   m_Layer: 0
-  m_Name: D note
+  m_Name: E note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1053,7 +1053,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 65cdeaad8da4a493bb81756af3f1991f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 309d5d87c6da4472e8760c650b03302f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 1985968225}
   - component: {fileID: 1985968224}
   m_Layer: 0
-  m_Name: C2 note
+  m_Name: C note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1726,17 +1726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26c34e1002df840a1b938fc53476bfc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numSpawn: 1
+  note: A
   spawnPool:
   - {fileID: 972153524534841495, guid: a036f68a3496443cb83a0eef433e4bfa, type: 3}
-  NoteLocation:
-  - -4.5
-  - -3
-  - -1.5
-  - 0
-  - 1.5
-  - 3
-  - 4.5
   quad: {fileID: 103963891}
 --- !u!1 &2085208523
 GameObject:
