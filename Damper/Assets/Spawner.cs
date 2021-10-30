@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public string note; 
+    public string song; 
     public List<GameObject> spawnPool;
     public Dictionary<string, float> noteDictionary = new Dictionary<string, float>(){
         {"C",(float)4.5},
@@ -20,10 +20,16 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawnObjects();
+        string[] notes = song.Split(',');
+        StartCoroutine(waiter(notes));
     }
-
-    public void spawnObjects()
+    IEnumerator waiter(string[] notes){
+        foreach(var note in notes){
+            spawnObjects(note);
+            yield return new WaitForSeconds(2);
+        }
+    }
+    public void spawnObjects(string note)
     {
         int randomItem = 0;
         GameObject toSpawn;
