@@ -7,13 +7,14 @@ public class Spawner : MonoBehaviour
     public string song; 
     public List<GameObject> spawnPool;
     public Dictionary<string, float> noteDictionary = new Dictionary<string, float>(){
-        {"C",(float)4.5},
-        {"B",(float)3},
-        {"A",(float)1.5},
-        {"G",(float)0},
-        {"F",(float)-1.5},
-        {"E",(float)-3},
-        {"D",(float)-4.5}
+        {"2",(float)4.43},
+        {"B",(float)3.18},
+        {"A",(float)1.98},
+        {"G",(float)0.68},
+        {"F",(float)-0.57},
+        {"E",(float)-1.82},
+        {"D",(float)-3.07},
+        {"1",(float)-4.32}
     };
 
     public GameObject quad;
