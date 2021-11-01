@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ColorChanger : MonoBehaviour
+public class ColorChangerRight : MonoBehaviour
 {
     public Color colorStart;
     public Color colorEnd;
@@ -15,6 +15,8 @@ public class ColorChanger : MonoBehaviour
     {
     rend = GetComponent<Renderer> ();
     duration = Random.Range(range1, range2);
+    colorStart.a = 1.0f;
+    colorEnd.a = 1.0f;
     //Debug.Log(duration);
     }
 
@@ -22,6 +24,7 @@ public class ColorChanger : MonoBehaviour
     void Update()
     {
         float lerp = Mathf.PingPong(Time.time, duration) / duration;
+        //Debug.Log("Color Start: " + colorStart + " Color End: " + colorEnd);
         rend.material.color = Color.Lerp(colorStart, colorEnd, lerp);
 
     }
