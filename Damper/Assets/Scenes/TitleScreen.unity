@@ -552,6 +552,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -559,7 +564,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1435715305}
+      objectReference: {fileID: 0}
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -573,7 +578,7 @@ PrefabInstance:
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: playGame
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
@@ -583,7 +588,7 @@ PrefabInstance:
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneSwitch, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3831841760779471980, guid: bee5732ac4b4c2640b7e62b1d9cb84e5,
         type: 3}
