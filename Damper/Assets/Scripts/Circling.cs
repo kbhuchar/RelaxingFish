@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Circling : MonoBehaviour
 {
+    static int fishCount = 0;
+    public static List<GameObject> fish = new List<GameObject>();
     float timeCounter = 0;
     public float speed;
     public float height;
@@ -12,6 +14,8 @@ public class Circling : MonoBehaviour
     bool circling = false;
     Vector3 clickedPos;
     [SerializeField]private Vector3 rotation;
+    public AudioClip Rhythm;
+    public AudioClip Lead;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +27,7 @@ public class Circling : MonoBehaviour
     {
         
         if (clicked == true){
-            Debug.Log("Clicked");
+            //Debug.Log("Clicked");
             timeCounter += Time.deltaTime*speed;
 
         
@@ -32,9 +36,23 @@ public class Circling : MonoBehaviour
            float z = 0;
 
             transform.position = clickedPos + new Vector3(x,y,z);
-            Debug.Log(x);
             //transform.Rotate(rotation * Time.deltaTime);
-            
+            if (fish.Count == 2){
+            Debug.Log("Playing");
+            int count = 1;
+            foreach (GameObject f in fish){
+                if (count == 1 ){
+                    AudioSource audio1 = f.GetComponent<AudioSource>();
+                    audio1.PlayOneShot(f.GetComponent<Circling>().Rhythm);
+                }
+                else if (count == 2){
+                   AudioSource audio2 = f.GetComponent<AudioSource>();
+                   audio2.PlayOneShot(f.GetComponent<Circling>().Lead);
+                }
+                count = count + 1;
+            }
+            fish.Clear();
+            }
         }
     
     }
@@ -43,9 +61,16 @@ public class Circling : MonoBehaviour
         clicked = true;
         circling = true;
         clickedPos = transform.position;
+        //fishCount = fishCount + 1;
+        fish.Add(this.gameObject);
+        Debug.Log(fish.Count);
+        foreach (GameObject f in fish){
+            Debug.Log(f);
+        }
         return;
         }
         if(circling == true){
+            fishCount = fishCount - 1;
             clicked = false;
             circling = false;
         }
