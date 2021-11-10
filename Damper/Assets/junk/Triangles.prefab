@@ -43240,6 +43240,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD:Damper/Assets/junk/Triangles.prefab
   m_SourcePrefab: {fileID: 100100000, guid: 675a3a5243f084d028c6d4e779a801bd, type: 3}
 --- !u!4 &1440454936899444509 stripped
 Transform:
@@ -43248,6 +43249,79 @@ Transform:
   m_PrefabInstance: {fileID: 3212646407967257816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4784001953020903283
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: f6d742a71065e4f8a9fb7119adca8f3d, type: 3}
+--- !u!1001 &2794766612155256980
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2794766612807951892, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_Name
+      value: updatedfish_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6948384
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794766612807951895, guid: 20837e2b869fd428da27b85ee60e8773,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20837e2b869fd428da27b85ee60e8773, type: 3}
+--- !u!1001 &7994360545562538912
+>>>>>>> Justin:Damper/Assets/Scenes/WaterSceneManyTri.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
