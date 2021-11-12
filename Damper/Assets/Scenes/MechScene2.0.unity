@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPool:
-  - {fileID: 972153524534841495, guid: fecbb4d9804d14f708f1c80abca3de67, type: 3}
+  - {fileID: 2794766612807951892, guid: 20837e2b869fd428da27b85ee60e8773, type: 3}
   spawnRate: 2
 --- !u!1001 &1533586613452286015
 PrefabInstance:

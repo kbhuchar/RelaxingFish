@@ -7,7 +7,7 @@ public class velocity : MonoBehaviour
   Vector3 pos1, pos2, finalPos;
   private float speed = 2f;
   private float rotate = 0.5f;
-
+  [SerializeField]private Vector3 rotation;
   Vector3 nextPos;
 
   void Start(){
@@ -36,23 +36,39 @@ public class velocity : MonoBehaviour
       finalPos = new Vector3 (9f,Random.Range(-5.8f,5.8f));
     }
     nextPos = pos1;
+    //Rotate(nextPos);
   }
 
   void Update(){
     if(transform.position==pos1){
       nextPos = pos2;
+      //Rotate(nextPos);
     }
     if(transform.position==pos2){
       nextPos = finalPos;
+      //Rotate(nextPos);
     }
     if(transform.position==finalPos){
       Destroy(gameObject);
     }
-    Vector3 v2t = nextPos - transform.position;
-    float angle = Mathf.Atan2(v2t.y,v2t.x)*Mathf.Rad2Deg;
-    Quaternion qt = Quaternion.AngleAxis(angle,Vector3.forward);
-    transform.Rotate(nextPos,rotate * Time.deltaTime);
+    //Vector3 v2t = nextPos - transform.position;
+    //float angle = Mathf.Atan2(v2t.y,v2t.x)*Mathf.Rad2Deg;
+    //Quaternion qt = Quaternion.AngleAxis(angle,Vector3.forward);
+    
+    if(transform.position == nextPos){
+      //Rotate(nextPos);
+    }
+    //transform.Rotate(transform.rotation, nextPos ,rotate * Time.deltaTime);
 
     transform.position = Vector3.MoveTowards(transform.position,nextPos,speed * Time.deltaTime);
   }
+  // void Rotate(Vector3 pos){
+  //   //Debug.Log("Entered");
+  //   float angle = Mathf.Atan2(pos.y,pos.x)*Mathf.Rad2Deg;
+  //   Quaternion qt = Quaternion.AngleAxis(angle,Vector3.forward);
+  //   pos.z = qt.eulerAngles.z;
+  //   Debug.Log(pos);
+  //   transform.Rotate(pos);
+  //   //transform.rotation, pos ,rotate
+  // }
 }

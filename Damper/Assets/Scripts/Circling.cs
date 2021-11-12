@@ -51,6 +51,9 @@ public class Circling : MonoBehaviour
                 }
                 count = count + 1;
             }
+            foreach (GameObject f in fish){
+                Destroy(f,4);
+            }
             fish.Clear();
             }
         }

@@ -8,7 +8,6 @@ public class SceneSwitcher : MonoBehaviour
     // Start is called before the first frame update
     public void ChangeScene()
     {
-
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MechScene2.0");
     }
 }
