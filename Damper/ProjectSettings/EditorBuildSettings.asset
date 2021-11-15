@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/junk/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/options_menu.unity
+    guid: 8bba47b200d37c54da9fe99d8277bb5a
   m_configObjects: {}
