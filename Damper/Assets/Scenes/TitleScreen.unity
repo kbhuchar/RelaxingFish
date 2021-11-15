@@ -497,6 +497,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4027543276115301239, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -289.31
+      objectReference: {fileID: 0}
     - target: {fileID: 4027543276247231500, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: effect
@@ -523,6 +528,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3208578045670737320, guid: ce6644ea0883326489956e3caaf50bb7,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208578045670737320, guid: ce6644ea0883326489956e3caaf50bb7,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_RootOrder
@@ -531,12 +546,12 @@ PrefabInstance:
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.97
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.33
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
@@ -592,6 +607,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: EmissionModule.rateOverDistance.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
+      value: 0.9977817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_RootOrder
@@ -600,7 +650,7 @@ PrefabInstance:
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.84
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
