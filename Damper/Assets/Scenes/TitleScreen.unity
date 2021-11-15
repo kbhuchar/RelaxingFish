@@ -427,6 +427,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_RootOrder
