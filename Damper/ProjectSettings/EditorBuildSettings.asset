@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: ea1d5ab620292d04083e52cfb1430470
-  - enabled: 1
+  - enabled: 0
     path: Assets/junk/mechScene.unity
     guid: aed2f79d042c549d58ecf0b7e45af7ce
   - enabled: 0
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/options_menu.unity
     guid: 8bba47b200d37c54da9fe99d8277bb5a
+  - enabled: 1
+    path: Assets/Scenes/MechScene2.0.unity
+    guid: fccfeacfa751c429fa1c07ac691a00fc
   m_configObjects: {}

@@ -36,7 +36,7 @@ public class velocity : MonoBehaviour
       finalPos = new Vector3 (9f,Random.Range(-5.8f,5.8f));
     }
     nextPos = pos1;
-    //Rotate(nextPos);
+    Rotate(nextPos);
   }
 
   void Update(){
@@ -51,24 +51,12 @@ public class velocity : MonoBehaviour
     if(transform.position==finalPos){
       Destroy(gameObject);
     }
-    //Vector3 v2t = nextPos - transform.position;
-    //float angle = Mathf.Atan2(v2t.y,v2t.x)*Mathf.Rad2Deg;
-    //Quaternion qt = Quaternion.AngleAxis(angle,Vector3.forward);
-    
-    // if(transform.position == nextPos){
-    //   Rotate(nextPos);
-    // }
-    //transform.Rotate(transform.rotation, nextPos ,rotate * Time.deltaTime);
-
     transform.position = Vector3.MoveTowards(transform.position,nextPos,speed * Time.deltaTime);
   }
   void Rotate(Vector3 pos){
-    //Debug.Log("Entered");
-    float angle = Mathf.Atan2(pos.y,pos.x)*Mathf.Rad2Deg;
-    Quaternion qt = Quaternion.AngleAxis(angle, Vector3.forward);
-    pos.z = qt.eulerAngles.z;
-    Debug.Log(pos);
-    transform.Rotate(pos);
-    //transform.rotation, pos ,rotate
+    Vector3 v2t = pos - transform.position;
+    float angle = Mathf.Atan2(v2t.y,v2t.x)*Mathf.Rad2Deg;
+    //It's that easy boys
+    transform.localRotation = Quaternion.Euler(new Vector3(0,0,angle));
   }
 }

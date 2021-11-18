@@ -362,7 +362,7 @@ MonoBehaviour:
   - {fileID: 2794766612807951892, guid: cb66711b2c2de4d489019eed80ef8002, type: 3}
   - {fileID: 2794766612807951892, guid: 241dc488995db41e4a3630d99c6c3d2e, type: 3}
   - {fileID: 2794766612807951892, guid: 10781b2a354ea4f4f8dfa40f61f058d7, type: 3}
-  spawnRate: 2
+  spawnRate: 0.75
 --- !u!1001 &1533586613452286015
 PrefabInstance:
   m_ObjectHideFlags: 0

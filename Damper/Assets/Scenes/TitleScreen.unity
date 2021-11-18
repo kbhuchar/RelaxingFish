@@ -552,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 4027543276115301238, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: mechScene
+      value: Assets/Scenes/MechScene2.0.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4027543276115301238, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}

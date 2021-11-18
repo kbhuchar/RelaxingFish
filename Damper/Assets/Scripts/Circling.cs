@@ -33,10 +33,10 @@ public class Circling : MonoBehaviour
         
            float x = Mathf.Cos(timeCounter)*width;
            float y = Mathf.Sin(timeCounter)*height;
-           float z = 0;
+           float z = Mathf.Atan2(y,x)*Mathf.Rad2Deg;
 
-            transform.position = clickedPos + new Vector3(x,y,z);
-            //transform.Rotate(rotation * Time.deltaTime);
+           transform.position = clickedPos + new Vector3(x,y,0);
+           transform.localRotation = Quaternion.Euler(clickedPos + new Vector3(0,0,z+90f)); 
             if (fish.Count == 2){
             Debug.Log("Playing");
             int count = 1;

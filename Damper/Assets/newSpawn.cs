@@ -46,11 +46,11 @@ public class newSpawn : MonoBehaviour
                 direction = new Vector2(-1f,0f);
             }
             //finds rotation
-            //float angle = Mathf.Atan2(direction.y,direction.x)*Mathf.Rad2Deg;
-            //Quaternion rotation = Quaternion.AngleAxis(angle,Vector3.forward);
+            float angle = Mathf.Atan2(direction.y,direction.x)*Mathf.Rad2Deg;
+            Quaternion rotation = Quaternion.AngleAxis(angle,Vector3.forward);
             //spawns in new fish
             Vector2 pos = new Vector2 (screenX, screenY);
-            Instantiate(toSpawn, pos, Quaternion.identity);
+            Instantiate(toSpawn, pos, rotation);
         }
     }
 }
