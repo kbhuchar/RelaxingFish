@@ -102,7 +102,7 @@ MonoBehaviour:
   height: 1
   width: 1
   rotation: {x: 0, y: 0, z: 45}
-  Rhythm: {fileID: 8300000, guid: 3506a34bd0b7240fc9178a1dd4d9a4d6, type: 3}
+  Rhythm: {fileID: 8300000, guid: ef08bc693ae4c40e0a44e4488f013419, type: 3}
   Lead: {fileID: 8300000, guid: 3e463a9fda62147b7849e53441146837, type: 3}
 --- !u!61 &2794766612807951888
 BoxCollider2D:
