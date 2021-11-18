@@ -324,13 +324,13 @@ PrefabInstance:
     - target: {fileID: 4027543274917954003, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_Size.y
-      value: 6.49
+      value: 6.48
       objectReference: {fileID: 0}
     - target: {fileID: 4027543274917954003, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a5cf6d528a5ccf34fbc0ee09b41eda5d,
+      objectReference: {fileID: 21300000, guid: c72b6a85194a8f348b00807ead1ea369,
         type: 3}
     - target: {fileID: 4027543275145166400, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
@@ -465,34 +465,34 @@ PrefabInstance:
     - target: {fileID: 4027543275963251921, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1.8941
+      value: 2.1279
       objectReference: {fileID: 0}
     - target: {fileID: 4027543275963251921, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1.8941
+      value: 2.1279
       objectReference: {fileID: 0}
     - target: {fileID: 4027543275963251921, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -286.7472
+      value: -286.82
       objectReference: {fileID: 0}
     - target: {fileID: 4027543275963251921, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -162.54
+      value: -163.17
       objectReference: {fileID: 0}
     - target: {fileID: 4027543275963251923, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a8389294e8b6a6e4cb822594d4c976e3,
+      objectReference: {fileID: 21300000, guid: ea8dbc006028c6b4896b2cf5a057d9ea,
         type: 3}
     - target: {fileID: 4027543276115301233, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bd498b0475e79bd4d9092a903c413233,
+      objectReference: {fileID: 21300000, guid: bbbab037d50cf4e4fa63a300cb366336,
         type: 3}
     - target: {fileID: 4027543276115301238, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
@@ -567,22 +567,22 @@ PrefabInstance:
     - target: {fileID: 4027543276115301239, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1.6356
+      value: 1.9464
       objectReference: {fileID: 0}
     - target: {fileID: 4027543276115301239, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1.6356
+      value: 1.9464
       objectReference: {fileID: 0}
     - target: {fileID: 4027543276115301239, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -289.79
+      value: -289.21
       objectReference: {fileID: 0}
     - target: {fileID: 4027543276115301239, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -161.20763
+      value: -161.94
       objectReference: {fileID: 0}
     - target: {fileID: 4027543276247231500, guid: e19feb4d4b32a7d43ab2645e53d9dab3,
         type: 3}
@@ -698,12 +698,12 @@ PrefabInstance:
     - target: {fileID: 3208578045670737320, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737320, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
@@ -713,17 +713,17 @@ PrefabInstance:
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -286.71
+      value: -286.82
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -162.54
+      value: -163.18
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3208578045670737323, guid: ce6644ea0883326489956e3caaf50bb7,
         type: 3}
@@ -792,12 +792,12 @@ PrefabInstance:
     - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420840, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
@@ -827,17 +827,17 @@ PrefabInstance:
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -289.76
+      value: -289.21
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -161.23
+      value: -161.95
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4079047306639420843, guid: 1f5d93e1b5ec7064e8db00f226d1f6cc,
         type: 3}
