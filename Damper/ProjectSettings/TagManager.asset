@@ -7,6 +7,10 @@ TagManager:
   - Startingfish
   - MainFish
   - redfish
+  - BlueFish
+  - Spwanable
+  - ParticleStart
+  - ParticleOptions
   layers:
   - Default
   - TransparentFX
